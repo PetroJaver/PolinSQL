@@ -1,0 +1,1 @@
+select * from cd.members where extract(year from joindate) >= 2012 and extract(month from joindate) >= 9;
